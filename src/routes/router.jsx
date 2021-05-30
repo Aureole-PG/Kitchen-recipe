@@ -1,7 +1,8 @@
 import React from 'react'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Layout from '../components/layout/layout';
-import Home from '../views/home/home'
+import Home from '../views/home/home';
+import Recipe from '../views/recipe/recipe'
 export default function AppRouter() {
     return (
         <Router>
@@ -9,9 +10,7 @@ export default function AppRouter() {
                 <Switch>
                     <Route path="/home" component={Home}/>
                     <Route path="/recipe">
-                        <div>
-                            esa es otra
-                        </div>
+                        <Recipe/>
                     </Route>
                 </Switch>
             </Layout>

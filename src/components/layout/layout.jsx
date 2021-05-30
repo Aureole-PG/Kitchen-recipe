@@ -17,6 +17,5 @@ export default function Layout({children}) {
             </nav>
             {children}   
         </Container>
-        
     )
 }

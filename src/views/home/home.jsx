@@ -2,12 +2,10 @@ import React,{
     useEffect,
     useRef
 } from 'react';
-import Layout from '../../components/layout/layout' ;
 import M from 'materialize-css';
 import {Chip} from '../../components/chips/chips'; 
 export default function Home() {
     const carousel = useRef(null)
-    console.log(carousel)
     useEffect(() => {
         M.Carousel.init(carousel.current,{
             fullWidth: true
