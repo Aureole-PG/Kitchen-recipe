@@ -16,7 +16,7 @@ export default function Home() {
             <div className="row">
                 <div className="col-sx-12">
                     <div ref={carousel} className="carousel carousel-slider">
-                        <a className="carousel-item" href="#one!"><img src="https://via.placeholder.com/800x400"/></a>
+                        <a className="carousel-item" href="#one!"><img src="https://via.placeholder.com/800x400" alt=""/></a>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ export default function Home() {
                     
                         <div className="card">
                             <div className="card-image">
-                                <img src="https://via.placeholder.com/800x400"/>
+                                <img src="https://via.placeholder.com/800x400" alt=""/>
                                 <span className="card-title">Card Title</span>
                             </div>
                             <div className="card-content">
@@ -47,7 +47,7 @@ export default function Home() {
                                 I am convenient because I require little markup to use effectively.</p>
                                 </div>
                             <div className="card-action">
-                                <a href="#">This is a link</a>
+                                <a >This is a link</a>
                             </div>
                         </div>
                     </div>
